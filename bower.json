@@ -1,9 +1,9 @@
 {
-	"name": "angular-qiniu-upload",
+	"name": "angular-qiniu-cloud",
 	"version": "0.0.4",
-	"homepage": "https://github.com/icattlecoder/angularQFileUpload/blob/master/README.md",
+	"homepage": "https://github.com/Landaojia/angularQiniuCloud/blob/master/README.md",
 	"authors": [
-		"icattlecoder <icattlecoder@gmail.com>"
+		"jacky yong <jacky850618@gmail.com>"
 	],
 	"description": "AngularJS qiniu cloud storage large file upload service with support resumble,progress",
 	"main": "./src/qupload.js",
