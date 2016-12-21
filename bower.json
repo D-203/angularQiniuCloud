@@ -5,7 +5,7 @@
 	"authors": [
 		"jacky yong <jacky850618@gmail.com>"
 	],
-	"description": "AngularJS qiniu cloud storage large file upload service with support resumble,progress",
+	"description": "AngularJS qiniu cloud JavaScript API for angular",
 	"main": "./src/qupload.js",
 	"keywords": [
 		"AngularJS",

@@ -1,14 +1,14 @@
 'use strict';
 /**!
- * AngularJS qiniu cloud storage large file upload service with support resumble,progress
- * @author  icattlecoder  <icattlecoder@gmail.com>
+ * Qiniu cloud JS SDK for angular
+ * @author  jackyyong <jacky850618@gmail.com>
  * @version 0.0.1
  */
 
 (function () {
-	var angularQFileUpload = angular.module('angularQFileUpload', ['LocalStorageModule']);
+	var angularQiniuCloud = angular.module('angularQiniuCloud', ['LocalStorageModule']);
 
-	angularQFileUpload.service('$qupload', ['$http', '$q', 'localStorageService',
+	angularQiniuCloud.service('$qupload', ['$http', '$q', 'localStorageService',
 
 		function ($http, $q, localStorageService) {
 
@@ -226,7 +226,7 @@
 	]);
 })();
 
-angular.module('angularQFileUpload').directive('ngFileSelect', ['$parse', '$timeout',
+angular.module('angularQiniuCloud').directive('ngFileSelect', ['$parse', '$timeout',
 	function ($parse, $timeout) {
 		return function (scope, elem, attr) {
 			var fn = $parse(attr['ngFileSelect']);
