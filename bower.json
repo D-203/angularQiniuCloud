@@ -24,10 +24,10 @@
 	],
 	"dependencies": {
 		"angularjs": "~1.2.16",
-		"angular-local-storage": "0.1.4"
+		"angular-local-storage": "~0.5.0"
 	},
 	"devDependencies": {
 		"angularjs": "*",
-		"angular-local-storage": ">0.1.4"
+		"angular-local-storage": "~0.5.0"
 	}
 }
