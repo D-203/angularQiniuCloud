@@ -155,10 +155,10 @@
 							'Authorization': 'UpToken ' + config.token,
 							'Content-Type': 'text/plain'
 						}
-					}).success(function (e) {
+					}).then(function (e) {
 						deferred.resolve(e);
 						localStorageService.remove(fileHashKey);
-					}).error(function (e) {
+					}).catch(function (e) {
 						deferred.reject(e);
 					});
 				};
