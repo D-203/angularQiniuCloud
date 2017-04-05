@@ -1,33 +1,33 @@
 {
-	"name": "angular-qiniu-cloud",
-	"version": "0.0.6",
-	"homepage": "https://github.com/Landaojia/angularQiniuCloud/blob/master/README.md",
-	"authors": [
-		"jacky yong <jacky850618@gmail.com>"
-	],
-	"description": "AngularJS qiniu cloud JavaScript API for angular",
-	"main": "./src/qupload.js",
-	"keywords": [
-		"AngularJS",
-		"Angular",
-		"Storage",
-		"Qiniu",
-		"Qiniu upload"
-	],
-	"license": "MIT",
-	"ignore": [
-		"node_modules",
-		"bower_components",
-		"test",
-		"tests",
-		"Gruntfile.js"
-	],
-	"dependencies": {
-		"angularjs": "~1.2.16",
-		"angular-local-storage": "~0.5.0"
-	},
-	"devDependencies": {
-		"angularjs": "*",
-		"angular-local-storage": "~0.5.0"
-	}
+    "name": "angular-qiniu-cloud",
+    "version": "0.0.6",
+    "homepage": "https://github.com/Landaojia/angularQiniuCloud/blob/master/README.md",
+    "authors": [
+        "jacky yong <jacky850618@gmail.com>"
+    ],
+    "description": "AngularJS Qiniu cloud JavaScript API for angular",
+    "main": "./src/qupload.js",
+    "keywords": [
+        "AngularJS",
+        "Angular",
+        "Storage",
+        "Qiniu",
+        "Qiniu upload"
+    ],
+    "license": "MIT",
+    "ignore": [
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests",
+        "Gruntfile.js"
+    ],
+    "dependencies": {
+        "angularjs": "~1.2.16",
+        "angular-local-storage": "~0.5.0"
+    },
+    "devDependencies": {
+        "angularjs": "*",
+        "angular-local-storage": "~0.5.0"
+    }
 }
