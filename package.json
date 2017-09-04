@@ -1,0 +1,23 @@
+{
+  "name": "angular-qiniu-cloud",
+  "version": "1.0.0",
+  "description": "qiniu cloud api wrapper for angularjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/D-203/angularQiniuCloud.git"
+  },
+  "keywords": [
+    "qiniu",
+    "angularjs",
+    "angular"
+  ],
+  "author": "jianlinxyz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/D-203/angularQiniuCloud/issues"
+  },
+  "homepage": "https://github.com/D-203/angularQiniuCloud#readme"
+}
